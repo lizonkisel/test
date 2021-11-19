@@ -1,0 +1,20 @@
+.first-screen {
+  background-image: url(../../images/first-screen.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #FCFAF7;
+  /* min-height: 760px; */
+  height: calc(100vh - 88px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .first-screen {
+    background-image: url(../../images/first-screen-mobile.svg);
+    /* min-height: 652px; */
+    height: calc(100vh - 68px);
+  }
+}
